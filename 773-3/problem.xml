@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<problem revision="3" short-name="773" url="https://polygon.codeforces.com/p2Gqpyc/korol1dorog/773">
+<problem revision="6" short-name="773" url="https://polygon.codeforces.com/p2Gqpyc/korol1dorog/773">
     <names>
         <name language="russian" value="&lt;&lt;Гулливер&gt;&gt;"/>
     </names>
@@ -83,6 +83,10 @@
                 <source path="files/test.cpp" type="cpp.gcc14-64-msys2-g++23"/>
                 <binary path="files/test.exe" type="exe.win32"/>
             </executable>
+            <executable>
+                <source path="files/validator.cpp" type="cpp.g++17"/>
+                <binary path="files/validator.exe" type="exe.win32"/>
+            </executable>
         </executables>
     </files>
     <assets>
@@ -103,12 +107,14 @@
         </checker>
         <validators>
             <validator>
-                <source path="files/test.cpp" type="cpp.gcc14-64-msys2-g++23"/>
-                <binary path="files/test.exe" type="exe.win32"/>
+                <source path="files/validator.cpp" type="cpp.g++17"/>
+                <binary path="files/validator.exe" type="exe.win32"/>
                 <testset>
-                    <test-count>1</test-count>
+                    <test-count>3</test-count>
                     <input-path-pattern>files/tests/validator-tests/%02d</input-path-pattern>
                     <tests>
+                        <test verdict="invalid"/>
+                        <test verdict="invalid"/>
                         <test verdict="valid"/>
                     </tests>
                 </testset>

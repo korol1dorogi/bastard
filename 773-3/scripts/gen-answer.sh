@@ -12,7 +12,7 @@ if [ ! -f "$1" ]; then
     read
 fi
 echo "Running validator"
-wine files/towin.exe "$1" | wine files/test.exe --testset "$3" --group "$4"
+wine files/towin.exe "$1" | wine files/validator.exe --testset "$3" --group "$4"
 if [ "$?" -ne "0" ]; then
     read
 fi

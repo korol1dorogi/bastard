@@ -4,7 +4,7 @@ if not "%argumentCount%"=="4" pause 0
 if "%1"=="" pause 0
 if "%2"=="" pause 0
 if not exist %1 pause 0
-files\test.exe --testset "%~3" --group "%~4" < %1
+files\validator.exe --testset "%~3" --group "%~4" < %1
 if errorlevel 1 pause 0
 solutions\solution.exe < %1 > output.txt
 if errorlevel 1 pause 0
