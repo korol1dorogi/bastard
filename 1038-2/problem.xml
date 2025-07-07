@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<problem revision="2" short-name="1038" url="https://polygon.codeforces.com/p1Viv3C/korol1dorog/1038">
+<problem revision="5" short-name="1038" url="https://polygon.codeforces.com/p1Viv3C/korol1dorog/1038">
     <names>
         <name language="russian" value="Перевязь"/>
     </names>
@@ -12,7 +12,7 @@
         <testset name="tests">
             <time-limit>1000</time-limit>
             <memory-limit>16777216</memory-limit>
-            <test-count>52</test-count>
+            <test-count>54</test-count>
             <input-path-pattern>tests/%02d</input-path-pattern>
             <answer-path-pattern>tests/%02d.a</answer-path-pattern>
             <tests>
@@ -68,6 +68,8 @@
                 <test cmd="generator 48: 999999998" method="generated"/>
                 <test cmd="generator 49: 999999999" method="generated"/>
                 <test cmd="generator 50: 1000000000" method="generated"/>
+                <test method="manual"/>
+                <test method="manual"/>
             </tests>
         </testset>
     </judging>
@@ -136,4 +138,7 @@
         <stress-path-pattern>stresses/%03d</stress-path-pattern>
         <list/>
     </stresses>
+    <tags>
+        <tag value="beginner"/>
+    </tags>
 </problem>

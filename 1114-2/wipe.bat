@@ -1,7 +1,5 @@
 rem    *** tests ***
-del tests\01
 del tests\01.a
-del tests\02
 del tests\02.a
 del tests\03
 del tests\03.a
@@ -99,6 +97,12 @@ del tests\49
 del tests\49.a
 del tests\50
 del tests\50.a
+del tests\51
 del tests\51.a
+del tests\52
 del tests\52.a
+del tests\53.a
+del tests\54.a
+del tests\55.a
+del tests\56.a
 

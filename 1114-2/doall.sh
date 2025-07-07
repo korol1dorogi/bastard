@@ -5,106 +5,106 @@ scripts/run-checker-tests.sh
 
 #    *** tests ***
 mkdir -p tests
-echo "Generating test #1"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 1: 60 1" "tests/01" 1
-echo "Generating test #2"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 2: -60 1" "tests/02" 2
 echo "Generating test #3"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 3: 109 1" "tests/03" 3
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 1: 60 1" "tests/03" 3
 echo "Generating test #4"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 4: -109 1" "tests/04" 4
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 2: -60 1" "tests/04" 4
 echo "Generating test #5"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 5: 218 1" "tests/05" 5
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 3: 109 1" "tests/05" 5
 echo "Generating test #6"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 6: -218 1" "tests/06" 6
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 4: -109 1" "tests/06" 6
 echo "Generating test #7"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 7: 60 2" "tests/07" 7
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 5: 218 1" "tests/07" 7
 echo "Generating test #8"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 8: -60 2" "tests/08" 8
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 6: -218 1" "tests/08" 8
 echo "Generating test #9"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 9: 109 2" "tests/09" 9
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 7: 60 2" "tests/09" 9
 echo "Generating test #10"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 10: -109 2" "tests/10" 10
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 8: -60 2" "tests/10" 10
 echo "Generating test #11"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 11: 1000 1000" "tests/11" 11
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 9: 109 2" "tests/11" 11
 echo "Generating test #12"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 12: -1000 1000" "tests/12" 12
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 10: -109 2" "tests/12" 12
 echo "Generating test #13"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 13: 0 1000" "tests/13" 13
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 11: 1000 1000" "tests/13" 13
 echo "Generating test #14"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 14: 1 0" "tests/14" 14
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 12: -1000 1000" "tests/14" 14
 echo "Generating test #15"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 15: -1 0" "tests/15" 15
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 13: 0 1000" "tests/15" 15
 echo "Generating test #16"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 16: 0 0" "tests/16" 16
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 14: 1 0" "tests/16" 16
 echo "Generating test #17"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 17: 327 3" "tests/17" 17
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 15: -1 0" "tests/17" 17
 echo "Generating test #18"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 18: -327 3" "tests/18" 18
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 16: 0 0" "tests/18" 18
 echo "Generating test #19"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 19: 55 55" "tests/19" 19
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 17: 327 3" "tests/19" 19
 echo "Generating test #20"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 20: -55 55" "tests/20" 20
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 18: -327 3" "tests/20" 20
 echo "Generating test #21"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 21: 109 1000" "tests/21" 21
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 19: 55 55" "tests/21" 21
 echo "Generating test #22"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 22: -109 1000" "tests/22" 22
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 20: -55 55" "tests/22" 22
 echo "Generating test #23"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 23: 1 1000" "tests/23" 23
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 21: 109 1000" "tests/23" 23
 echo "Generating test #24"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 24: -1 1000" "tests/24" 24
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 22: -109 1000" "tests/24" 24
 echo "Generating test #25"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 25: 500 2" "tests/25" 25
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 23: 1 1000" "tests/25" 25
 echo "Generating test #26"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 26: -500 2" "tests/26" 26
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 24: -1 1000" "tests/26" 26
 echo "Generating test #27"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 27: 200 5" "tests/27" 27
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 25: 500 2" "tests/27" 27
 echo "Generating test #28"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 28: -200 5" "tests/28" 28
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 26: -500 2" "tests/28" 28
 echo "Generating test #29"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 29: 99 99" "tests/29" 29
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 27: 200 5" "tests/29" 29
 echo "Generating test #30"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 30: -99 99" "tests/30" 30
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 28: -200 5" "tests/30" 30
 echo "Generating test #31"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 31: 109 999" "tests/31" 31
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 29: 99 99" "tests/31" 31
 echo "Generating test #32"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 32: -109 999" "tests/32" 32
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 30: -99 99" "tests/32" 32
 echo "Generating test #33"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 33: 333 3" "tests/33" 33
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 31: 109 999" "tests/33" 33
 echo "Generating test #34"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 34: -333 3" "tests/34" 34
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 32: -109 999" "tests/34" 34
 echo "Generating test #35"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 35: 250 4" "tests/35" 35
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 33: 333 3" "tests/35" 35
 echo "Generating test #36"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 36: -250 4" "tests/36" 36
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 34: -333 3" "tests/36" 36
 echo "Generating test #37"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 37: 109 500" "tests/37" 37
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 35: 250 4" "tests/37" 37
 echo "Generating test #38"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 38: -109 500" "tests/38" 38
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 36: -250 4" "tests/38" 38
 echo "Generating test #39"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 39: 77 13" "tests/39" 39
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 37: 109 500" "tests/39" 39
 echo "Generating test #40"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 40: -77 13" "tests/40" 40
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 38: -109 500" "tests/40" 40
 echo "Generating test #41"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 41: 40 25" "tests/41" 41
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 39: 77 13" "tests/41" 41
 echo "Generating test #42"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 42: -40 25" "tests/42" 42
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 40: -77 13" "tests/42" 42
 echo "Generating test #43"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 43: 109 109" "tests/43" 43
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 41: 40 25" "tests/43" 43
 echo "Generating test #44"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 44: -109 109" "tests/44" 44
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 42: -40 25" "tests/44" 44
 echo "Generating test #45"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 45: 999 1" "tests/45" 45
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 43: 109 109" "tests/45" 45
 echo "Generating test #46"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 46: -999 1" "tests/46" 46
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 44: -109 109" "tests/46" 46
 echo "Generating test #47"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 47: 100 10" "tests/47" 47
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 45: 999 1" "tests/47" 47
 echo "Generating test #48"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 48: -100 10" "tests/48" 48
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 46: -999 1" "tests/48" 48
 echo "Generating test #49"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 49: 109 1" "tests/49" 49
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 47: 100 10" "tests/49" 49
 echo "Generating test #50"
-scripts/gen-input-via-stdout.sh "wine files/generator.exe 50: -109 1" "tests/50" 50
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 48: -100 10" "tests/50" 50
+echo "Generating test #51"
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 49: 109 1" "tests/51" 51
+echo "Generating test #52"
+scripts/gen-input-via-stdout.sh "wine files/generator.exe 50: -109 1" "tests/52" 52
 echo ""
 echo "Generating answer for test #1"
 scripts/gen-answer.sh tests/01 tests/01.a "tests" ""
@@ -261,5 +261,17 @@ scripts/gen-answer.sh tests/51 tests/51.a "tests" ""
 echo ""
 echo "Generating answer for test #52"
 scripts/gen-answer.sh tests/52 tests/52.a "tests" ""
+echo ""
+echo "Generating answer for test #53"
+scripts/gen-answer.sh tests/53 tests/53.a "tests" ""
+echo ""
+echo "Generating answer for test #54"
+scripts/gen-answer.sh tests/54 tests/54.a "tests" ""
+echo ""
+echo "Generating answer for test #55"
+scripts/gen-answer.sh tests/55 tests/55.a "tests" ""
+echo ""
+echo "Generating answer for test #56"
+scripts/gen-answer.sh tests/56 tests/56.a "tests" ""
 echo ""
 

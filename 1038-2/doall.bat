@@ -106,4 +106,6 @@ call scripts\gen-answer.bat tests\49 tests\49.a "tests" ""
 call scripts\gen-answer.bat tests\50 tests\50.a "tests" ""
 call scripts\gen-answer.bat tests\51 tests\51.a "tests" ""
 call scripts\gen-answer.bat tests\52 tests\52.a "tests" ""
+call scripts\gen-answer.bat tests\53 tests\53.a "tests" ""
+call scripts\gen-answer.bat tests\54 tests\54.a "tests" ""
 

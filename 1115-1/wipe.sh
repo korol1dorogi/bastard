@@ -102,4 +102,6 @@ rm -f tests/51
 rm -f tests/51.a
 rm -f tests/52
 rm -f tests/52.a
+rm -f tests/53.a
+rm -f tests/54.a
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<problem revision="2" short-name="1114" url="https://polygon.codeforces.com/p8jiss9/korol1dorog/1114">
+<problem revision="7" short-name="1114" url="https://polygon.codeforces.com/p8jiss9/korol1dorog/1114">
     <names>
         <name language="russian" value="МКАД"/>
     </names>
@@ -12,10 +12,12 @@
         <testset name="tests">
             <time-limit>1000</time-limit>
             <memory-limit>16777216</memory-limit>
-            <test-count>52</test-count>
+            <test-count>56</test-count>
             <input-path-pattern>tests/%02d</input-path-pattern>
             <answer-path-pattern>tests/%02d.a</answer-path-pattern>
             <tests>
+                <test method="manual" sample="true"/>
+                <test method="manual" sample="true"/>
                 <test cmd="generator 1: 60 1" method="generated"/>
                 <test cmd="generator 2: -60 1" method="generated"/>
                 <test cmd="generator 3: 109 1" method="generated"/>
@@ -67,7 +69,9 @@
                 <test cmd="generator 49: 109 1" method="generated"/>
                 <test cmd="generator 50: -109 1" method="generated"/>
                 <test method="manual"/>
-                <test method="manual" sample="true"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
             </tests>
         </testset>
     </judging>
@@ -107,9 +111,11 @@
                 <source path="files/validator.cpp" type="cpp.gcc14-64-msys2-g++23"/>
                 <binary path="files/validator.exe" type="exe.win32"/>
                 <testset>
-                    <test-count>0</test-count>
+                    <test-count>1</test-count>
                     <input-path-pattern>files/tests/validator-tests/%02d</input-path-pattern>
-                    <tests/>
+                    <tests>
+                        <test verdict="valid"/>
+                    </tests>
                 </testset>
             </validator>
         </validators>
@@ -132,4 +138,7 @@
         <stress-path-pattern>stresses/%03d</stress-path-pattern>
         <list/>
     </stresses>
+    <tags>
+        <tag value="beginner"/>
+    </tags>
 </problem>

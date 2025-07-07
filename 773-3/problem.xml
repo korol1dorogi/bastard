@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<problem revision="6" short-name="773" url="https://polygon.codeforces.com/p2Gqpyc/korol1dorog/773">
+<problem revision="8" short-name="773" url="https://polygon.codeforces.com/p2Gqpyc/korol1dorog/773">
     <names>
         <name language="russian" value="&lt;&lt;Гулливер&gt;&gt;"/>
     </names>
@@ -139,4 +139,7 @@
         <stress-path-pattern>stresses/%03d</stress-path-pattern>
         <list/>
     </stresses>
+    <tags>
+        <tag value="beginner"/>
+    </tags>
 </problem>

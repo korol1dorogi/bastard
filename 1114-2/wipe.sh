@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 #   *** tests ***
-rm -f tests/01
 rm -f tests/01.a
-rm -f tests/02
 rm -f tests/02.a
 rm -f tests/03
 rm -f tests/03.a
@@ -100,6 +98,12 @@ rm -f tests/49
 rm -f tests/49.a
 rm -f tests/50
 rm -f tests/50.a
+rm -f tests/51
 rm -f tests/51.a
+rm -f tests/52
 rm -f tests/52.a
+rm -f tests/53.a
+rm -f tests/54.a
+rm -f tests/55.a
+rm -f tests/56.a
 

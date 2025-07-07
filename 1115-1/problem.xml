@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<problem revision="1" short-name="1115" url="https://polygon.codeforces.com/p0pC3cX/korol1dorog/1115">
+<problem revision="3" short-name="1115" url="https://polygon.codeforces.com/p0pC3cX/korol1dorog/1115">
     <names>
         <name language="russian" value="Дележка яблок"/>
     </names>
@@ -12,7 +12,7 @@
         <testset name="tests">
             <time-limit>1000</time-limit>
             <memory-limit>16777216</memory-limit>
-            <test-count>52</test-count>
+            <test-count>54</test-count>
             <input-path-pattern>tests/%02d</input-path-pattern>
             <answer-path-pattern>tests/%02d.a</answer-path-pattern>
             <tests>
@@ -68,6 +68,8 @@
                 <test cmd="generator 48: 1000000000 10000" method="generated"/>
                 <test cmd="generator 49: 100000 1000000000" method="generated"/>
                 <test cmd="generator 50: 1000000000 100000" method="generated"/>
+                <test method="manual"/>
+                <test method="manual"/>
             </tests>
         </testset>
     </judging>
@@ -107,9 +109,11 @@
                 <source path="files/validator.cpp" type="cpp.gcc14-64-msys2-g++23"/>
                 <binary path="files/validator.exe" type="exe.win32"/>
                 <testset>
-                    <test-count>0</test-count>
+                    <test-count>1</test-count>
                     <input-path-pattern>files/tests/validator-tests/%02d</input-path-pattern>
-                    <tests/>
+                    <tests>
+                        <test verdict="valid"/>
+                    </tests>
                 </testset>
             </validator>
         </validators>
@@ -132,4 +136,7 @@
         <stress-path-pattern>stresses/%03d</stress-path-pattern>
         <list/>
     </stresses>
+    <tags>
+        <tag value="beginner"/>
+    </tags>
 </problem>

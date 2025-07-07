@@ -101,4 +101,6 @@ del tests\51
 del tests\51.a
 del tests\52
 del tests\52.a
+del tests\53.a
+del tests\54.a
 
