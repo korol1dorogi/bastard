@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<problem revision="2" short-name="1114" url="https://polygon.codeforces.com/p8jiss9/korol1dorog/1114">
+    <names>
+        <name language="russian" value="МКАД"/>
+    </names>
+    <statements>
+        <statement charset="UTF-8" language="russian" mathjax="true" path="statements/russian/problem.tex" type="application/x-tex"/>
+        <statement charset="UTF-8" language="russian" mathjax="true" path="statements/.html/russian/problem.html" type="text/html"/>
+        <statement language="russian" path="statements/.pdf/russian/problem.pdf" type="application/pdf"/>
+    </statements>
+    <judging cpu-name="Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz" cpu-speed="3600" input-file="" output-file="" run-count="1">
+        <testset name="tests">
+            <time-limit>1000</time-limit>
+            <memory-limit>16777216</memory-limit>
+            <test-count>52</test-count>
+            <input-path-pattern>tests/%02d</input-path-pattern>
+            <answer-path-pattern>tests/%02d.a</answer-path-pattern>
+            <tests>
+                <test cmd="generator 1: 60 1" method="generated"/>
+                <test cmd="generator 2: -60 1" method="generated"/>
+                <test cmd="generator 3: 109 1" method="generated"/>
+                <test cmd="generator 4: -109 1" method="generated"/>
+                <test cmd="generator 5: 218 1" method="generated"/>
+                <test cmd="generator 6: -218 1" method="generated"/>
+                <test cmd="generator 7: 60 2" method="generated"/>
+                <test cmd="generator 8: -60 2" method="generated"/>
+                <test cmd="generator 9: 109 2" method="generated"/>
+                <test cmd="generator 10: -109 2" method="generated"/>
+                <test cmd="generator 11: 1000 1000" method="generated"/>
+                <test cmd="generator 12: -1000 1000" method="generated"/>
+                <test cmd="generator 13: 0 1000" method="generated"/>
+                <test cmd="generator 14: 1 0" method="generated"/>
+                <test cmd="generator 15: -1 0" method="generated"/>
+                <test cmd="generator 16: 0 0" method="generated"/>
+                <test cmd="generator 17: 327 3" method="generated"/>
+                <test cmd="generator 18: -327 3" method="generated"/>
+                <test cmd="generator 19: 55 55" method="generated"/>
+                <test cmd="generator 20: -55 55" method="generated"/>
+                <test cmd="generator 21: 109 1000" method="generated"/>
+                <test cmd="generator 22: -109 1000" method="generated"/>
+                <test cmd="generator 23: 1 1000" method="generated"/>
+                <test cmd="generator 24: -1 1000" method="generated"/>
+                <test cmd="generator 25: 500 2" method="generated"/>
+                <test cmd="generator 26: -500 2" method="generated"/>
+                <test cmd="generator 27: 200 5" method="generated"/>
+                <test cmd="generator 28: -200 5" method="generated"/>
+                <test cmd="generator 29: 99 99" method="generated"/>
+                <test cmd="generator 30: -99 99" method="generated"/>
+                <test cmd="generator 31: 109 999" method="generated"/>
+                <test cmd="generator 32: -109 999" method="generated"/>
+                <test cmd="generator 33: 333 3" method="generated"/>
+                <test cmd="generator 34: -333 3" method="generated"/>
+                <test cmd="generator 35: 250 4" method="generated"/>
+                <test cmd="generator 36: -250 4" method="generated"/>
+                <test cmd="generator 37: 109 500" method="generated"/>
+                <test cmd="generator 38: -109 500" method="generated"/>
+                <test cmd="generator 39: 77 13" method="generated"/>
+                <test cmd="generator 40: -77 13" method="generated"/>
+                <test cmd="generator 41: 40 25" method="generated"/>
+                <test cmd="generator 42: -40 25" method="generated"/>
+                <test cmd="generator 43: 109 109" method="generated"/>
+                <test cmd="generator 44: -109 109" method="generated"/>
+                <test cmd="generator 45: 999 1" method="generated"/>
+                <test cmd="generator 46: -999 1" method="generated"/>
+                <test cmd="generator 47: 100 10" method="generated"/>
+                <test cmd="generator 48: -100 10" method="generated"/>
+                <test cmd="generator 49: 109 1" method="generated"/>
+                <test cmd="generator 50: -109 1" method="generated"/>
+                <test method="manual"/>
+                <test method="manual" sample="true"/>
+            </tests>
+        </testset>
+    </judging>
+    <files>
+        <resources>
+            <file path="files/olymp.sty"/>
+            <file path="files/problem.tex"/>
+            <file path="files/statements.ftl"/>
+            <file path="files/testlib.h" type="h.g++"/>
+        </resources>
+        <executables>
+            <executable>
+                <source path="files/generator.cpp" type="cpp.gcc14-64-msys2-g++23"/>
+                <binary path="files/generator.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/validator.cpp" type="cpp.gcc14-64-msys2-g++23"/>
+                <binary path="files/validator.exe" type="exe.win32"/>
+            </executable>
+        </executables>
+    </files>
+    <assets>
+        <checker name="std::hcmp.cpp" type="testlib">
+            <source path="files/check.cpp" type="cpp.g++17"/>
+            <binary path="check.exe" type="exe.win32"/>
+            <copy path="check.cpp"/>
+            <testset>
+                <test-count>0</test-count>
+                <input-path-pattern>files/tests/checker-tests/%02d</input-path-pattern>
+                <output-path-pattern>files/tests/checker-tests/%02d.o</output-path-pattern>
+                <answer-path-pattern>files/tests/checker-tests/%02d.a</answer-path-pattern>
+                <tests/>
+            </testset>
+        </checker>
+        <validators>
+            <validator>
+                <source path="files/validator.cpp" type="cpp.gcc14-64-msys2-g++23"/>
+                <binary path="files/validator.exe" type="exe.win32"/>
+                <testset>
+                    <test-count>0</test-count>
+                    <input-path-pattern>files/tests/validator-tests/%02d</input-path-pattern>
+                    <tests/>
+                </testset>
+            </validator>
+        </validators>
+        <solutions>
+            <solution tag="main">
+                <source path="solutions/main.cpp" type="cpp.gcc14-64-msys2-g++23"/>
+                <binary path="solutions/main.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/trash.py" type="python.pypy3-64"/>
+                <binary path="solutions/trash.pypys3-64" type="pythonx.pypy3-64"/>
+            </solution>
+        </solutions>
+    </assets>
+    <properties>
+        <property name="tests-wellformed" value="true"/>
+    </properties>
+    <stresses>
+        <stress-count>0</stress-count>
+        <stress-path-pattern>stresses/%03d</stress-path-pattern>
+        <list/>
+    </stresses>
+</problem>
